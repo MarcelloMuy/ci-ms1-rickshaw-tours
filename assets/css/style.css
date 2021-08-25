@@ -13,13 +13,13 @@ body {
 }
 
 /* headings and logo */
+
 header{
     background-color: #FFA85C;
 }
 
 h1, h2 {
     font-family: Raleway, sans-serif;
-    text-transform: uppercase;
     letter-spacing: 0px;
     font-weight: 600;
     color: #005248;
@@ -29,6 +29,7 @@ h1, h2 {
 #logo {
     text-align: center;
     text-decoration: none; 
+    text-transform: uppercase;
 }
 
 .table {
@@ -83,14 +84,13 @@ h1, h2 {
 /* hero image content */
 
 #hero-image h2 {
-    text-transform: none;
     text-align: center;
-    padding-top: 10px;
+    padding-top: 30px;
 }
 
-#hero-image p {
+#hero-image h3 {
     text-align: center;
-    padding-top: 10px;
+    padding: 25px 50px;
 }
 
 .buttons {
@@ -116,5 +116,26 @@ h1, h2 {
 
 .buttons:hover {
     background-color: #005248;
+}
+
+/* about us */
+
+#why-us {
+    background-color: #DFE0DF;
+    width: 100%;
+}
+
+.why-us-content {
+    text-align: center;
+    padding: 5px 10px;
+}
+
+li {
+    font-size: 1.25rem;
+    padding: 10px 5px;
+}
+
+i {
+    font-size: 1.5rem;
 }
 
