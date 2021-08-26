@@ -143,7 +143,7 @@ i {
 #map-box {
     position: relative;
     width: 100%;
-    padding-top: 56.25%;
+    padding-top: 75%;
 }
 .map {
     position: absolute;
@@ -155,7 +155,7 @@ i {
     height: 100%;
 }
 #map-frame {
-    padding: 10px;
+    padding: 10px 20px 20px;
     background-color: #4B8078;
 }
 #map-frame h3 {
