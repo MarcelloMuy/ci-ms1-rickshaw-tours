@@ -166,3 +166,22 @@ i {
 
 /* footer */
 
+footer {
+    background-color: #FFA85C;
+    height: 50px;
+    padding-top: 12px;
+}
+
+.social-links {
+    text-align: center;
+}
+
+footer li {
+    display: inline;
+}
+
+.social-links i {
+    font-size: 160%;
+    color: #005248;
+    padding: 0 5%;
+}
