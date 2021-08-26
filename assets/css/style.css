@@ -185,3 +185,17 @@ footer li {
     color: #005248;
     padding: 0 5%;
 }
+
+/* locations gallery */
+
+#gallery {
+    background-color: #DFE0DF;
+}
+
+.gallery-box {
+    padding: 20px;
+}
+
+.gallery-box img {
+    width: 100%;
+}
