@@ -201,12 +201,18 @@ footer li {
 
 #gallery {
     background-color: #DFE0DF;
+    width: 100%;
 }
 
 .gallery-box {
     padding: 20px;
+    text-align: center;
 }
 
 .gallery-box img {
     width: 100%;
+}
+
+.gallery-box h3 {
+    padding: 10px 0;
 }
