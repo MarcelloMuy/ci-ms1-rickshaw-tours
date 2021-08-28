@@ -216,3 +216,8 @@ footer li {
 .gallery-box h3 {
     padding: 10px 0;
 }
+
+.location-button-box {
+    width: 100%;
+    text-align: center;
+}
