@@ -12,10 +12,9 @@ body {
     color: #4B8078;
 }
 
-/* headings and logo */
-
-header{
-    background-color: #FFA85C;
+li {
+    font-size: 1.25rem;
+    padding: 5px 5px;
 }
 
 h1, h2 {
@@ -26,10 +25,20 @@ h1, h2 {
     padding-top: 5px;
 }
 
+/* headings and logo */
+
+header{
+    background-color: #FFA85C;
+}
+
 #logo {
     text-align: center;
     text-decoration: none; 
     text-transform: uppercase;
+}
+
+#logo h1 {
+    padding-top: 10px;
 }
 
 .table {
@@ -48,7 +57,7 @@ h1, h2 {
     display: inline-block;
     list-style: none;
     margin: 0px 5px;
-    padding-bottom: 5px;
+    padding: 0 5px 5px;
 }
 
 #menu a {
@@ -130,11 +139,6 @@ h1, h2 {
     padding: 5px 10px;
 }
 
-li {
-    font-size: 1.25rem;
-    padding: 10px 5px;
-}
-
 i {
     font-size: 1.5rem;
 }
@@ -169,7 +173,7 @@ i {
 footer {
     background-color: #FFA85C;
     height: 50px;
-    padding-top: 12px;
+    padding-top: 15px;
 }
 
 .social-links {
