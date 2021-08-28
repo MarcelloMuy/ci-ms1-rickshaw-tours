@@ -25,6 +25,13 @@ h1, h2 {
     padding-top: 5px;
 }
 
+hr {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    border-top: 1px solid gray;
+}
+
 /* headings and logo */
 
 header{
