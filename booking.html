@@ -36,45 +36,67 @@
         <form class="booking-form" method="POST" action="https://formdump.codeinstitute.net/">
             <h2>Booking Request</h2>
             <p>Please fill in your details below:</p>
-            
-            <label for="fname">First Name:</label>
-            <input id="fname" class="text-input" name="first_name" type="text" required>
-            <label for="lname">Last Name:</label>
-            <input id="lname" class="text-input" name="lname" type="text" required>
-            <label for="email">Email Adress:</label>
-            <input type="email" class="text-input" id="email" name="email_address" required>
-
-            <label for="date-of-booking">Date Requested:</label>
-            <input type="date" class="text-input" name="date-of-booking" id="date-of-booking">
-
+            <div>
+                <label for="fname">First Name:</label>
+                <input id="fname" class="text-input" name="first_name" type="text" placeholder="Your first name" required>
+            </div>
+            <div>
+                <label for="lname">Last Name:</label>
+                <input id="lname" class="text-input" name="lname" type="text" placeholder="Your last name" required>
+            </div>
+            <div>
+                <label for="email">Email Adress:</label>
+                <input type="email" class="text-input" id="email" name="email_address" placeholder="Your e-mail" required>       
+            </div>
+            <div>
+                <label for="date-of-booking">Date Requested:</label>
+                <input type="date" class="text-input" name="date-of-booking" id="date-of-booking">
+            </div>            
             <p>What do you want to see?</p>
-
-            <label for="st-stephens">St Stephens Green Park</label>
-            <input type="radio" name="choice-of-location" id="st-stephens" value="st-stephens" required>
-            <label for="temple-bar">The Temple Bar Pub</label>
-            <input type="radio" name="choice-of-location" id="temple-bar" value="temple-bar" required>
-            <label for="molly-mallone">Molly Mallone Statue</label>
-            <input type="radio" name="choice-of-location" id="molly-mallone" value="molly-mallone" required>
-            <label for="phoenix-park">Phoenix Park</label>
-            <input type="radio" name="choice-of-location" id="phoenix-park" value="phoenix-park" required>
-            <label for="beckett-bridge">Samuel Beckett Bridge</label>
-            <input type="radio" name="choice-of-location" id="beckett-bridge" value="beckett-bridge" required>
-            <label for="tall-ship">Jeanie Johnston Tall Ship</label>
-            <input type="radio" name="choice-of-location" id="tall-ship" value="tall-ship" required>
+            <div>
+                <label for="st-stephens">St Stephens Green Park</label>
+                <input type="radio" name="choice-of-location" id="st-stephens" value="st-stephens" required>    
+            </div>
+            <div>
+                <label for="temple-bar">The Temple Bar Pub</label>
+                <input type="radio" name="choice-of-location" id="temple-bar" value="temple-bar" required>      
+            </div>
+            <div>
+                <label for="molly-mallone">Molly Mallone Statue</label>
+                <input type="radio" name="choice-of-location" id="molly-mallone" value="molly-mallone" required>
+            </div>
+            <div>
+                <label for="phoenix-park">Phoenix Park</label>
+                <input type="radio" name="choice-of-location" id="phoenix-park" value="phoenix-park" required>
+            </div>
+            <div>
+                <label for="beckett-bridge">Samuel Beckett Bridge</label>
+                <input type="radio" name="choice-of-location" id="beckett-bridge" value="beckett-bridge" required>
+            </div>
+            <div>
+                <label for="tall-ship">Jeanie Johnston Tall Ship</label>
+                <input type="radio" name="choice-of-location" id="tall-ship" value="tall-ship" required>
+            </div>
+            
             <fieldset>
-                <label for="new-location"></label>
+                <label for="new-location">New Location</label>
                 <input type="radio" name="choice-of-location" id="new-location" value="new-location">
                 <label for="new-location-text"></label>
-                <input id="new-location-text" type="text" class="text-input" name="new-location-text">
+                <input id="new-location-text" type="text" class="text-input" name="new-location-text" placeholder="Name of Attraction">
             </fieldset>
             
-            <p>Plese let us know if you have any questions</p>
+            <p>Plese let us know if you have any questions:</p>
             <label for="questions"></label>
-            <input id="questions" type="text" class="text-input" name="questions">
+            <textarea id="questions" class="text-input" name="questions" rows="10" cols="40"></textarea>
+            <div>
+                <button class="buttons" type="submit">
+                    <strong>Submit</strong>
+                </button>
+            </div>
         </form>
     </section>
     <section>
-        
+
     </section>
     <footer>
         <ul class="social-links">

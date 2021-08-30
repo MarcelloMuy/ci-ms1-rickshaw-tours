@@ -232,3 +232,17 @@ footer li {
     text-decoration: none;
     color: #DFE0DF;
 }
+
+/* bookings page */
+
+.booking-form {
+    margin: 150px 0 0;
+    color: #4B8078;
+    background-color: #DFE0DF;
+    max-width: 400px;
+    padding: 30px 0 30px 30px;
+}
+
+form button {
+    color: #DFE0DF;
+}
