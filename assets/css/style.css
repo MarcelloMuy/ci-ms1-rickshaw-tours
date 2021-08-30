@@ -235,12 +235,19 @@ footer li {
 
 /* bookings page */
 
+#form-section {
+    background-image: url('../images/bookings-background.png');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+}
 .booking-form {
-    margin: 150px 0 0;
-    color: #4B8078;
-    background-color: #DFE0DF;
-    max-width: 400px;
-    padding: 30px 0 30px 30px;
+    margin: auto;
+    color: #005248;
+    background-color: rgba(145, 145, 145, 0.781);
+    max-width: 280px;
+    padding: 15px;
 }
 
 form button {
