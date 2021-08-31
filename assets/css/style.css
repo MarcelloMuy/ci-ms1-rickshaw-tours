@@ -265,3 +265,30 @@ form h2,p {
 #form-h2 {
     text-align: center;
 }
+
+/* For medium screen sizes from 750px wide and up */
+@media only screen and (min-width: 750px) {
+    .table {
+        display: unset;
+        margin: unset;
+        }
+    #menu {
+        float: right;
+        padding-right: 25px;
+    }
+    
+    #logo {
+        float: left; 
+    }
+
+    #logo h1 {
+        padding: 0 25px;
+    }
+    header {
+        padding: 15px 0 50px;
+    }
+
+    #menu li {
+        font-size: 1.5rem;
+    }
+}
