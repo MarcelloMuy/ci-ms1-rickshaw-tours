@@ -25,7 +25,7 @@
                         <a href="locations.html">Locations</a>
                     </li>
                     <li>
-                        <a href="booking.html" class="active">Bookings</a>
+                        <a href="bookings.html" class="active">Bookings</a>
                     </li>
                 </ul>
             </div>
@@ -34,8 +34,11 @@
     <section id="form-section">
 
         <form class="booking-form" method="POST" action="https://formdump.codeinstitute.net/">
-            <h2>Booking Request</h2>
+            <div id="form-h2">
+                <h2>Booking Request</h2>
+            </div>
             <p>Please fill in your details below:</p>
+
             <div>
                 <label for="fname">First Name:</label>
                 <input id="fname" class="text-input" name="first_name" type="text" placeholder="Your first name" required>
@@ -51,8 +54,10 @@
             <div>
                 <label for="date-of-booking">Date Requested:</label>
                 <input type="date" class="text-input" name="date-of-booking" id="date-of-booking">
-            </div>            
+            </div>
+
             <p>What do you want to see?</p>
+
             <div>
                 <label for="st-stephens">St Stephens Green Park</label>
                 <input type="radio" name="choice-of-location" id="st-stephens" value="st-stephens" required>    
@@ -86,9 +91,10 @@
             </fieldset>
             
             <p>Plese let us know if you have any questions:</p>
+
             <label for="questions"></label>
             <textarea id="questions" class="text-input" name="questions" rows="10" cols="38"></textarea>
-            <div>
+            <div id="submit-button">
                 <button class="buttons" type="submit">
                     <strong>Submit</strong>
                 </button>

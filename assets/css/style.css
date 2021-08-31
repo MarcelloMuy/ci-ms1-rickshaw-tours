@@ -253,3 +253,15 @@ footer li {
 form button {
     color: #DFE0DF;
 }
+
+#submit-button {
+    text-align: center;
+}
+
+form h2,p {
+    padding: 5px 0;
+}
+
+#form-h2 {
+    text-align: center;
+}
