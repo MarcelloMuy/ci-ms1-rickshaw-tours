@@ -33,6 +33,14 @@ hr {
     border-top: 1px solid gray;
 }
 
+.buttons {
+    border-radius: 9%;
+    background-color: #4B8078;
+    padding: 11px 20px; 
+    margin: 0 8px 0;
+    display: inline;
+}
+
 /* headings and logo */
 
 header{
@@ -107,14 +115,6 @@ header{
 #hero-image h3 {
     text-align: center;
     padding: 25px 50px;
-}
-
-.buttons {
-    border-radius: 50%;
-    background-color: #4B8078;
-    padding: 11px 20px; 
-    margin: 0 8px 0;
-    display: inline;
 }
 
 #hero-image a {
