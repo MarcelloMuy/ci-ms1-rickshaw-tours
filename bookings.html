@@ -11,6 +11,7 @@
     <title>Rickshaw Tours</title>
 </head>
 <body>
+    <!-- Navigation bar -->
     <header>
         <a href="index.html" id="logo">
             <h1>Rickshaw Tours</h1>
@@ -31,14 +32,17 @@
             </div>
         </nav>
     </header>
-    <section id="form-section">
 
+    <!-- Bookings submit form -->
+    <section id="form-section">
+        <!-- form title -->
         <form class="booking-form" method="POST" action="https://formdump.codeinstitute.net/">
             <div id="form-h2">
                 <h2>Booking Request</h2>
             </div>
             <p>Please fill in your details below:</p>
-
+            
+            <!-- Personal information -->
             <div>
                 <label for="fname">First Name:</label>
                 <input id="fname" class="text-input" name="first_name" type="text" placeholder="Your first name" required>
@@ -51,13 +55,16 @@
                 <label for="email">Email Adress:</label>
                 <input type="email" class="text-input" id="email" name="email_address" placeholder="Your e-mail" required>       
             </div>
+
+            <!-- Date of booking -->
             <div>
-                <label for="date-of-booking">Date Requested:</label>
+                <label for="date-of-booking">Choose a date</label>
                 <input type="date" class="text-input" name="date-of-booking" id="date-of-booking" required>
             </div>
 
             <p>What do you want to see?</p>
 
+            <!-- Radio buttons for locations -->
             <div>
                 <input type="radio" name="choice-of-location" id="st-stephens" value="st-stephens" required>   
                 <label for="st-stephens">St Stephens Green Park</label> 
@@ -84,6 +91,7 @@
                 <label for="tall-ship">Jeanie Johnston Tall Ship</label>
             </div>
             
+            <!-- New location request area -->
             <fieldset>
                 <input type="radio" name="choice-of-location" id="new-location" value="new-location">
                 <label for="new-location">New Location</label>
@@ -91,11 +99,14 @@
                 <input id="new-location-text" type="text" class="text-input" name="choice-of-location" placeholder="Name of Attraction">
             </fieldset>
             
+            <!-- Feedback and questions area -->
             <p>Any questions? Just ask.</p>
 
             <label for="questions"></label>
             <textarea id="questions" class="text-input" name="questions" rows="10" cols="38"></textarea>
             <div id="submit-button">
+
+                <!-- Submit button -->
                 <button class="buttons" type="submit">
                     <strong>Submit</strong>
                 </button>
@@ -105,6 +116,8 @@
     <section>
 
     </section>
+
+    <!-- Footer with social links -->
     <footer>
         <ul class="social-links">
             <li>
