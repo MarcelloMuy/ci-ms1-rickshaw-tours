@@ -15,6 +15,7 @@ body {
 li {
     font-size: 1.25rem;
     padding: 5px 5px;
+    list-style-type: none;
 }
 
 h1, h2 {
@@ -62,7 +63,6 @@ header{
 
 #menu li {  
     display: inline-block;
-    list-style: none;
     margin: 0px 5px;
     padding: 0 5px 5px;
 }
