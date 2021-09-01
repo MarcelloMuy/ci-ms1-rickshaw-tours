@@ -241,11 +241,13 @@ footer li {
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .booking-form {
     margin: auto;
     color: #005248;
-    background-color: rgba(145, 145, 145, 0.6);
+    background-color: rgba(211, 205, 205, 0.664);
     max-width: 280px;
     padding: 15px;
 }
@@ -264,6 +266,12 @@ form h2,p {
 
 #form-h2 {
     text-align: center;
+}
+.text-input {
+    width: 100%;
+    padding-left: 3px;
+    padding-top: 3px;
+    padding-bottom: 3px;
 }
 
 /* For medium screen sizes from 750px wide and up */

@@ -53,44 +53,45 @@
             </div>
             <div>
                 <label for="date-of-booking">Date Requested:</label>
-                <input type="date" class="text-input" name="date-of-booking" id="date-of-booking">
+                <input type="date" class="text-input" name="date-of-booking" id="date-of-booking" required>
             </div>
 
             <p>What do you want to see?</p>
 
             <div>
-                <label for="st-stephens">St Stephens Green Park</label>
-                <input type="radio" name="choice-of-location" id="st-stephens" value="st-stephens" required>    
+                <input type="radio" name="choice-of-location" id="st-stephens" value="st-stephens" required>   
+                <label for="st-stephens">St Stephens Green Park</label> 
             </div>
+        
             <div>
+                <input type="radio" name="choice-of-location" id="temple-bar" value="temple-bar" required>
                 <label for="temple-bar">The Temple Bar Pub</label>
-                <input type="radio" name="choice-of-location" id="temple-bar" value="temple-bar" required>      
             </div>
             <div>
-                <label for="molly-mallone">Molly Mallone Statue</label>
                 <input type="radio" name="choice-of-location" id="molly-mallone" value="molly-mallone" required>
+                <label for="molly-mallone">Molly Mallone Statue</label>
             </div>
             <div>
-                <label for="phoenix-park">Phoenix Park</label>
                 <input type="radio" name="choice-of-location" id="phoenix-park" value="phoenix-park" required>
+                <label for="phoenix-park">Phoenix Park</label>
             </div>
             <div>
-                <label for="beckett-bridge">Samuel Beckett Bridge</label>
                 <input type="radio" name="choice-of-location" id="beckett-bridge" value="beckett-bridge" required>
+                <label for="beckett-bridge">Samuel Beckett Bridge</label>
             </div>
             <div>
-                <label for="tall-ship">Jeanie Johnston Tall Ship</label>
                 <input type="radio" name="choice-of-location" id="tall-ship" value="tall-ship" required>
+                <label for="tall-ship">Jeanie Johnston Tall Ship</label>
             </div>
             
             <fieldset>
-                <label for="new-location">New Location</label>
                 <input type="radio" name="choice-of-location" id="new-location" value="new-location">
+                <label for="new-location">New Location</label>
                 <label for="new-location-text"></label>
-                <input id="new-location-text" type="text" class="text-input" name="new-location-text" placeholder="Name of Attraction">
+                <input id="new-location-text" type="text" class="text-input" name="choice-of-location" placeholder="Name of Attraction">
             </fieldset>
             
-            <p>Plese let us know if you have any questions:</p>
+            <p>Any questions? Just ask.</p>
 
             <label for="questions"></label>
             <textarea id="questions" class="text-input" name="questions" rows="10" cols="38"></textarea>
