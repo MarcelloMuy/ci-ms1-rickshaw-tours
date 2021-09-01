@@ -272,6 +272,8 @@ form h2,p {
 
 /* For medium screen sizes from 750px wide and up */
 @media only screen and (min-width: 750px) {
+    
+    /* Navbar */
     .table {
         display: unset;
         margin: unset;
@@ -296,6 +298,7 @@ form h2,p {
         font-size: 1.5rem;
     }
 
+    /* Index page headings */
     .headings-box {
         background-color: rgba(211, 205, 205, 0.664);
         margin: 0 33%;
@@ -303,4 +306,25 @@ form h2,p {
     #hero-image {
         padding-top: 20px;
     }
+
+    /* index page content */
+    #map-frame {
+        padding: 0;
+        padding-bottom: 46.4px;
+    }
+    #why-us, #hero-image, #map-box, #map-frame {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    #why-us {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    #map-frame h3 {
+        padding: 10px;
+    }
+
 }
