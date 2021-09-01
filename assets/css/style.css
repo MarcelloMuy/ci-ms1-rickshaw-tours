@@ -221,11 +221,7 @@ footer li {
     width: 100%;
     text-align: center;
     height: 100px;
-    padding-bottom: 40px;
-}
-
-.location-button-box h2 {
-    margin-bottom: 40px;
+    padding-top: 40px;
 }
 
 .location-button-box a {
