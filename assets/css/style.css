@@ -299,4 +299,12 @@ form h2,p {
     #menu li {
         font-size: 1.5rem;
     }
+
+    .headings-box {
+        background-color: rgba(211, 205, 205, 0.664);
+        margin: 0 33%;
+    }
+    #hero-image {
+        padding-top: 20px;
+    }
 }
