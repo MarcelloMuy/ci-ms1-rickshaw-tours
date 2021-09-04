@@ -290,6 +290,7 @@ form h2,p {
     #logo h1 {
         padding: 0 25px;
     }
+
     header {
         padding: 15px 0 50px;
     }
@@ -297,6 +298,23 @@ form h2,p {
     #menu li {
         font-size: 1.5rem;
     }
+
+    /* bookings page */
+
+    #bookings-header {
+        padding: 15px 0 10px;
+    }
+
+    #bookings-page {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    #form-section {
+        flex: 1;
+    }
+    
 }
 
 /* For large screen sizes from 1024px wide and up */
@@ -357,8 +375,6 @@ form h2,p {
     #gallery h3, p {
         padding: 10px;
     }
-
-
 }
 
 /* For larger screen sizes from 1350px wide and up */
@@ -384,5 +400,14 @@ form h2,p {
 
     #map-frame h3 {
         padding: 10px;
+    }
+}
+
+/* For screen sizes from 990px tall and up */
+@media only screen and (min-height: 990px) {
+    
+    /* bookings page */
+    #form-section {
+        padding-top: 3%;
     }
 }
