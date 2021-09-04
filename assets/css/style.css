@@ -407,11 +407,11 @@ form h2,p {
     }
 }
 
-/* For screen sizes from 1024px tall and up */
-@media only screen and (min-height: 1024px) {
+/* For screen sizes from 990px tall and up */
+@media only screen and (min-height: 990px) {
     
     /* bookings page */
     #form-section {
-        padding-top: 5%;
+        padding-top: 3%;
     }
 }
