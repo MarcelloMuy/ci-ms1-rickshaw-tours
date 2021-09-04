@@ -311,10 +311,54 @@ form h2,p {
         padding-top: 20px;
     }
 
+    /* google maps iframe */
     #map-frame {
         padding-right: 80px;
         padding-left: 80px;
     }
+
+    /* locations page */
+    
+    #gallery {
+        width: 100%;
+    }
+
+    .imgs-container {
+        text-align: center;
+    }
+
+    .gallery-box {
+        width: 95%;
+        display: inline-block;
+    }
+
+    .img-l {
+        max-width: 50%;
+        float: left;
+    }
+    
+    .img-text-box-r {
+        float: right;
+        max-width: 50%;
+        text-align: left;
+    }
+
+    .img-r {
+        max-width: 50%;
+        float: right;
+    }
+
+    .img-text-box-l {
+        float: left;
+        width: 50%;
+        text-align: right;
+    }
+
+    #gallery h3, p {
+        padding: 10px;
+    }
+
+
 }
 
 /* For larger screen sizes from 1350px wide and up */
