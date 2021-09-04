@@ -372,7 +372,11 @@ form h2,p {
         text-align: right;
     }
 
-    #gallery h3, p {
+    #gallery h3 {
+        padding: 25px;
+    }
+    
+    #gallery p {
         padding: 25px;
     }
 }
@@ -403,11 +407,11 @@ form h2,p {
     }
 }
 
-/* For screen sizes from 990px tall and up */
-@media only screen and (min-height: 990px) {
+/* For screen sizes from 1024px tall and up */
+@media only screen and (min-height: 1024px) {
     
     /* bookings page */
     #form-section {
-        padding-top: 3%;
+        padding-top: 5%;
     }
 }
