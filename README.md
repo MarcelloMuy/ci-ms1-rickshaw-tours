@@ -12,6 +12,7 @@ A live website can be found [here](https://marcellomuy.github.io/ci-milestone-p1
  [1. User experience (ux) design](#ux)
   - [User Goals:](#user-goals)
   - [User Expectations:](#user-expectations)
+  -	[Color scheme and font](#color-scheme)
 
 
 <a name="ux"></a>
@@ -46,7 +47,7 @@ Folloiwng user's expections were considered while designing the site:
   [ColorSpace](https://mycolor.space/) was use to decide de colors for this design.
 
   Here is an example of color scheme that you can find in this website.
-  
+
   ![color scheme](assets/images/color-scheme.png) 
 
   The following colors were used to design this website:
@@ -55,5 +56,19 @@ Folloiwng user's expections were considered while designing the site:
   * #FFA85C
   * #DFE0DF
   * rgba(211, 205, 205, 0.750)
+
+<a name="wireframes"></a>
+## 1.4 Site Skeleton
+  [Go to the top](#table-of-contents)
+
+[balsamiq](https://balsamiq.com/) was used to create the wireframes for this website. 
+
+The mobile version of the wireframes are presented below.
+
+
+
+
+
+
 
  
