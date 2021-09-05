@@ -26,13 +26,6 @@ h1, h2 {
     padding-top: 5px;
 }
 
-hr {
-    text-align: center;
-    width: 70%;
-    margin: auto;
-    border-top: 1px solid gray;
-}
-
 .buttons {
     border-radius: 9%;
     background-color: #4B8078;
