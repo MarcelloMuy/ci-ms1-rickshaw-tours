@@ -313,6 +313,7 @@ form h2,p {
 /* For large screen sizes from 1024px wide and up */
 @media only screen and (min-width: 1024px) {
 
+    /* All pages */
     h2 {
         font-size: 2rem;
     }
@@ -423,10 +424,19 @@ form h2,p {
 }
 
 /* For screen sizes from 990px tall and up */
-@media only screen and (min-height: 990px) {
-    
+@media only screen and (min-height: 1020px) {
+
+    /* All pages */
+    h2 {
+        font-size: 2rem;
+    }
+
+    p,.buttons {
+        font-size: 1.5rem;
+    }
+
     /* bookings page */
     #form-section {
-        padding-top: 4%;
+        padding-top: 3%;
     }
 }
