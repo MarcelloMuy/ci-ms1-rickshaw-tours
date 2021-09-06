@@ -18,7 +18,7 @@ li {
     list-style-type: none;
 }
 
-h1, h2 {
+h1, h2, h4 {
     font-family: Raleway, sans-serif;
     letter-spacing: 0px;
     font-weight: 600;
@@ -166,6 +166,14 @@ i {
     color: #DFE0DF;
     text-align: center;
     padding-bottom: 10px;
+}
+
+/* Contact Information */
+
+#contact {
+    width: 100%;
+    text-align: center;
+    background-color: #DFE0DF;
 }
 
 /* footer */
@@ -406,7 +414,7 @@ form h2,p {
 @media only screen and (min-width: 1350px) {
     
     /* index page content */
-    #why-us, #hero-image, #map-box, #map-frame {
+    #why-us, #hero-image, #map-box, #map-frame, #contact {
         width: 90%;
         margin-left: 5%;
         margin-right: 5%;
