@@ -313,13 +313,31 @@ form h2,p {
 /* For large screen sizes from 1024px wide and up */
 @media only screen and (min-width: 1024px) {
 
+    h2 {
+        font-size: 2rem;
+    }
+
+    p,.buttons {
+        font-size: 1.5rem;
+    }
+
     /* Index page headings */
+
     .headings-box {
         background-color: rgba(211, 205, 205, 0.750);
         margin: 0 33%;
     }
+
+    .headings-box h3 {
+        font-size: 1.5rem;
+    }
+
     #hero-image {
         padding-top: 20px;
+    }
+
+    .why-us-content li {
+        font-size: 1.5rem;
     }
 
     /* google maps iframe */
@@ -365,14 +383,12 @@ form h2,p {
         text-align: right;
     }
 
-    #gallery h3 {
+    #gallery h2 {
         padding: 25px;
-        font-size: 2rem;
     }
     
     #gallery p {
         padding: 25px;
-        font-size: 1.5rem;
     }
 
     .imgs-container:first-child {
