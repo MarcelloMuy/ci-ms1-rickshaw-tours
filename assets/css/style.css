@@ -271,6 +271,10 @@ form h2,p {
     padding-bottom: 3px;
 }
 
+#submit-button {
+    margin-top: 4px;
+}
+
 /* For medium screen sizes from 750px wide and up */
 @media only screen and (min-width: 750px) {
     

@@ -16,7 +16,7 @@ A live website can be found [here](https://marcellomuy.github.io/ci-milestone-p1
   - [Typography:](#typography)
   - [Site skeleton:](#site-skeleton)
 
-[2. Features:](#featues)
+[2. Features](#features)
 
 [3.Technologies used](#technologies-used)
 
@@ -209,6 +209,49 @@ I had an error in my bookings page with an empty section tag that didn’t have 
 I used [Jigsaw validation](https://jigsaw.w3.org/) to check my code for any CSS errors. No errors were found.
 
 ## Manual Testing 
+
+I have tested my website on google chrome and safari on multiples devices.
+  - iPhone 5/SE (320 x 568)
+  - iPhone X (375 x 812)
+  - iPad (768 x 1024)
+  - iPad Pro (1024 x 1366)
+  - Laptop (1280 x 802)
+  - Desktop (1600 x 992)
+
+Please find below my testing process for all pages via mobile and web:
+
+## All pages:
+
+### Navigation bar:
+  - Logo - When clicking the logo, the page is redirected to the home page. Pass.
+  - Home - When selected, the page is redirected to the home page, the text is highlighted when hovered and stays like that when in the page. Pass.
+  - Locations - When selected, the page is redirected to the Locations page, the text is highlighted when hovered and stays like that when in the page. Pass.
+  - Bookings - When selected, the page is redirected to the bookings page, the text is highlighted when hovered and stays like that when in the page. Pass.
+  
+### Text
+  - Check if the fonts were loaded and all text was displayed in the correct size in different screen sizes. Pass
+
+### Responsive
+  - All elements were responsive using different break points. Pass.
+
+### Images
+  - Check if all images were loaded, weren’t distorted and were responsive for different break points.
+
+### Buttons
+  - Check if all buttons were consistent and with a hover effect. Pass
+
+### Footer:
+  - Facebook – When clicking the icon, a new tab opens and redirects to the Facebook page. Pass.
+  - Twitter - When clicking the icon, a new tab opens and redirects to the Twitter page. Pass.
+  - Instagram - When clicking the icon, a new tab opens and redirects to the Instagram page. Pass.
+  - Responsive – All elements were responsive using different break points. Pass.
+
+## Home page:
+  
+
+
+
+
 
 
 
