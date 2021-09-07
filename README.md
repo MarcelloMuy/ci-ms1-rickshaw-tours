@@ -9,14 +9,17 @@ A live website can be found [here](https://marcellomuy.github.io/ci-milestone-p1
 ![website preview](assets/images/responsive-screenshot.png)
 
 ## Table of Contents
-[1. User experience (ux) design](#ux)
+[1. User experience (ux) design:](#ux)
   - [User Goals:](#user-goals)
   - [User Expectations:](#user-expectations)
   -	[Color Scheme:](#color-scheme)
-  - [typography:](#typography)
+  - [Typography:](#typography)
   - [Site skeleton:](#site-skeleton)
+
 [2. Features:](#featues)
+
 [3.Technologies used](#technologies-used)
+
 [4.Testing](#testing)
 
 <a name="ux"></a>
@@ -203,7 +206,11 @@ I had an error in my index page with a closing section tag that didn’t have an
 
 I had an error in my bookings page with an empty section tag that didn’t have any elements inside. Section deleted to fix the error.
 
-I used [Jigsaw validation](https://jigsaw.w3.org/) to check my code for any CSS errors.
+I used [Jigsaw validation](https://jigsaw.w3.org/) to check my code for any CSS errors. No errors were found.
+
+## Manual Testing 
+
+
 
 
 
