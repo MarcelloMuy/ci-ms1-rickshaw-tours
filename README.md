@@ -16,7 +16,8 @@ A live website can be found [here](https://marcellomuy.github.io/ci-milestone-p1
   - [typography:](#typography)
   - [Site skeleton:](#site-skeleton)
 [2. Features:](#featues)
-
+[3.Technologies used](#technologies-used)
+[4.Testing](#testing)
 
 <a name="ux"></a>
 # 1. User experience (UX) design
@@ -152,9 +153,57 @@ The screenshots of the bookings page are below:
 
 The feedback form was correctly submitted  as  shown below:
 
-  ![Form feedback](./assets/images/form-dump-preview.png) 
+  ![Form feedback](./assets/images/form-dump-preview.png)
 
+  <a name="technologies-used"></a>
+ # 3. Technologies Used
+  [Go to the top](#table-of-contents)
 
+* [HTML5](https://en.wikipedia.org/wiki/HTML5) (markup language) was used for structuring and presenting content of the website.
+ 
+* [CSS3](https://en.wikipedia.org/wiki/CSS) (Cascading Style Sheets) was used to provide the style to the content written in a HTML.
+
+* [Balsamiq](https://balsamiq.com/) was used to create wireframes of the website.
+
+* [Google Fonts](https://fonts.google.com/) was used to import font-family "Raleway" and "Open Sans" into style.css file and which was used throughout the pages of the website.
+
+* [Font Awesome](https://fontawesome.com/) was used to import icons.
+
+* [Chrome](https://www.google.com/intl/en_uk/chrome/) was used to debug and test the source code using HTML5 as well as to test site responsiveness.
+
+* [Github](https://github.com/) was used to create the repository and to store the project's code after pushed from Git.
+
+* [Gitpod](https://www.gitpod.io/) was used as the Code Editor for the site
+
+* [ColorSpace](https://mycolor.space/) was used to generate the color scheme of the project.
+
+* [W3C Markup](https://validator.w3.org/)  was used to validate the HTML code used in the project.
+
+* [Jigsaw validation](https://jigsaw.w3.org/) was used to validate the CSS style used in the project.
+
+* [Ami](http://ami.responsivedesign.is/#) was used to generate a screenshot showing responsiveness in different devices. 
+
+  <a name="testing"></a>
+# 4. Testing
+  [Go to the top](#table-of-contents)
+
+## 4.1 Automated testing
+
+### Chrome DevTools
+I used the developer tools to debug my code and to try different styles. When something in my code didn’t behave in the way I expected I would inspect it and try out different solutions. When I was happy with the results I would them copy and paste the code in the projects file.
+
+### Responsive Tools
+I used [Am I Responsive](http://ami.responsivedesign.is/) in conjunction with Chrome DevTools to check how the website behaved in different screen sizes.
+
+### W3C Validator Tools 
+
+I used [W3C Markup](https://validator.w3.org/) to check my code for any errors in the html pages.
+
+I had an error in my index page with a closing section tag that didn’t have an opening tag. Opening section tag created to fix the error.
+
+I had an error in my bookings page with an empty section tag that didn’t have any elements inside. Section deleted to fix the error.
+
+I used [Jigsaw validation](https://jigsaw.w3.org/) to check my code for any CSS errors.
 
 
 
