@@ -28,7 +28,7 @@ A business online presence, regardless of industry, can have a massive impact on
 ## 1.1 User Goals
   [Go to the top](#table-of-contents)
 
-The main goal of this website is to increase the brand awareness, publicize the contact information and make it easier for the costumer to request the service through the bookings page.
+The main goal of this website is to increase the brand awareness, give out the contact information and make it easier for the costumer to request the service through the bookings page.
 
 <a name="user-expectations"></a>
 ## 1.2 User Expectations
@@ -39,6 +39,7 @@ Folloiwng user's expections were considered while designing the site:
 * The site is designed with a mobile first approach making it easier to read on small screens. 
 * The user interface is easy to navigate (include a main navigation bar in the header of the page, buttons in the middle and footer at the botton with social links).
 * The website is responsive on all devices sizes like mobile, tablet and desktop.
+* All images on the website are of high quality. 
 * To have the ability to contact the company and resquest the service.
 
 <a name="color-scheme"></a>
@@ -93,10 +94,10 @@ The mobile version of the wireframes are presented below.
 
 ### All pages:
 - Navigation bar is placed at the top of the screen with the menu centred on small screens and at the top right on large screens. It has a hover effect and an active CSS class that indicates which page the user is, improving user experience.
-- Logo is place at the top and centred on small screens and top left on large screens.
+- Logo is place at the top and centred on small screens and top left on large screens. Works as a link for the home page.
 - Social media links (for Facebook, Twitter, Instagram) are placed in the footer at the bottom of the page. All links will open in a new tab.
 - The color scheme of all pages were chosen using [ColorSpace](https://mycolor.space/) with focus in contrast, consistency and a pleasant user experience.
-- Buttons are consistent in all pages with a hover effect and border radius.
+- Buttons are consistent in all pages with a hover and border radius effect.
 ### Home page:
 - Hero image is placed under the navigation bar and is in consistency with the website theme.
 - The hero image has a heading and a paragraph that makes clear what is the purpose of the website.
@@ -105,16 +106,59 @@ The mobile version of the wireframes are presented below.
 - About us section is placed under the hero image with a list of reasons to why use the service. A background color and icons were used to improve the appearance and style 
 - Iframe with google maps location is placed under about us section, it has a coloured padding and a heading at the top.
 - Contact Us section is located just above the footer, it has all elements centred and a background color.
-- The home page has a margin in both sides in large screens to improve responsiveness and style.
+- The home page has a margin in both sides on large screens to improve responsiveness and style.
 
-
-The screenshots of the home page is below:
+The screenshots of the home page are below:
 
   Home page UI:
   
-  ![home page preview mobile](./assets/images/home-preview-mobile.png)
+  ![home page preview mobile](./assets/images/home1-preview-mobile.png)
+  ![home page preview mobile](./assets/images/home2-preview-mobile.png) 
 
   ![home page preview desktop](./assets/images/home-preview-desktop.png)
+
+### Locations page:
+
+- This page has a gallery with pictures of attractions in Dublin. Each image has a heading with the name and a paragraph with a description of the place.
+- On small screens the content is centred, for large screens the content is floated left and right.
+- Request a new location button at the bottom of the page brings the user to the bookings page.
+
+The screenshots of the locations page are below:
+
+  Locations page UI:
+  
+  ![locations page preview mobile](./assets/images/locations1-preview-mobile.png) 
+  ![locations page preview mobile](./assets/images/locations2-preview-mobile.png)
+
+  ![locations page preview desktop](./assets/images/locations-preview-desktop.png)
+
+### Bookings page:
+
+- Background image in consistency with the color scheme and website theme.
+- Includes a contact form that gives the ability to request a booking and ask questions.
+- input type=date for selecting a date.
+- The form uses radio buttons for choosing a location or requesting a new one.
+- Thw form uses required attribute for essential information
+- Submit button at the end.
+- The form use the method="POST" action="https://formdump.codeinstitute.net/"
+
+The screenshots of the bookings page are below:
+
+  Bookings page UI:
+  
+  ![Bookings page preview mobile](./assets/images/bookings-preview-mobile.png) 
+
+  ![Bookings page preview desktop](./assets/images/bookings-preview-desktop.png)
+
+The feedback form was correctly submitted  as  shown below:
+
+  ![Form feedback](./assets/images/form-dump-preview.png) 
+
+
+
+
+
+
 
 
 
