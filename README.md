@@ -2,7 +2,7 @@
 # Rickshaw Guided Tours Project
 
 ## Introduction 
-Welcome to my first milestone project. This project is a website for a fictinal guided tours company that uses rickshaws and operates in Dublin, Ireland. This website gives the user a way to know the brand and book the service. It also shows the different attractions that are available to see in Dublin.
+Welcome to my first milestone project. This project is a website for a fictional guided tours company that uses rickshaw-style bikes and operates in Dublin, Ireland. This website gives the user a way to know the brand and book the service. It also shows the different attractions that are available to see in Dublin.
 
 A live website can be found [here](https://marcellomuy.github.io/ci-milestone-p1/).
 
@@ -26,25 +26,25 @@ A live website can be found [here](https://marcellomuy.github.io/ci-milestone-p1
 # 1. User experience (UX) design
 [Go to the top](#table-of-contents)
 
-A business online presence, regardless of industry, can have a massive impact on its success. Nowadays some businesses still don’t realize that a big part of their customers will visit their website before making a purchase. Having a website increases the credibility of your company and  it is a way to stand out from the others business that are offering a similar service. 
+An online business presence, regardless of industry, can have a massive impact on its success. Nowadays some businesses still don’t realize that a big part of their customer base will visit their website before making a purchase. Having a website increases the credibility of your company and  it is a way to stand out from the others business that might be offering a similar service. 
 
 <a name="user-goals"></a>
 ## 1.1 User Goals
   [Go to the top](#table-of-contents)
 
-The main goal of this website is to increase the brand awareness, give out the contact information and make it easier for the costumer to request the service through the bookings page.
+The main goal of this website is to increase the brand awareness, give out the contact information and make it easier for the customer to request the service through the bookings page.
 
 <a name="user-expectations"></a>
 ## 1.2 User Expectations
   [Go to the top](#table-of-contents)
 
-Folloiwng user's expections were considered while designing the site:
+The following user expections were considered while designing the site:
 * The site structure is designed to be simple and easy to use.
-* The site is designed with a mobile first approach making it easier to read on small screens. 
-* The user interface is easy to navigate (include a main navigation bar in the header of the page, buttons in the middle and footer at the botton with social links).
-* The website is responsive on all devices sizes like mobile, tablet and desktop.
+* The site is designed with a mobile first approach making it easier to read on smaller screens. 
+* The user interface is easy to navigate (including a main navigation bar in the header of the page, buttons in the middle and footer and social links at the bottom of the page).
+* The website is responsive on all device sizes like mobile, tablet and desktop.
 * All images on the website are of high quality. 
-* To have the ability to contact the company and resquest the service.
+* To have the ability to contact the company and request the service.
 
 <a name="color-scheme"></a>
 ## 1.3 Color Scheme
@@ -52,9 +52,9 @@ Folloiwng user's expections were considered while designing the site:
 
   Colors are the first thing people notice when they visit a website, and the color scheme can make a huge impact on both style and consistency.
    
-  [ColorSpace](https://mycolor.space/) was use to decide de colors for this design.
+  [ColorSpace](https://mycolor.space/) was used to decide the colors for this design.
 
-  Here is an example of color scheme that you can find in this website.
+  Here is an example of the color scheme that you can find in the website.
 
   ![color scheme](assets/images/color-scheme.png) 
 
@@ -69,14 +69,14 @@ Folloiwng user's expections were considered while designing the site:
 ## 1.4 Typography
   [Go to the top](#table-of-contents)
 
-  Two fonts were used for this design. Open Sans for body elements and Raleway for main headings, Sans serif was used as backup font in both cases. 
+  Two fonts were used for this design. Open Sans for body elements and Raleway for main headings, Sans Serif was used as backup font in both cases. 
     
 
 <a name="wireframes"></a>
 ## 1.5 Site Skeleton
   [Go to the top](#table-of-contents)
 
-[balsamiq](https://balsamiq.com/) was used to create the wireframes for this website. 
+[balsamiq](https://balsamiq.com/) was used to create the wireframes for the website. 
 
 The mobile version of the wireframes are presented below.
 
@@ -97,20 +97,20 @@ The mobile version of the wireframes are presented below.
   [Go to the top](#table-of-contents)
 
 ### All pages:
-- Navigation bar is placed at the top of the screen with the menu centred on small screens and at the top right on large screens. It has a hover effect and an active CSS class that indicates which page the user is, improving user experience.
-- Logo is place at the top and centred on small screens and top left on large screens. Works as a link for the home page.
+- The navigation bar is placed at the top of the screen with the menu centred on small screens and at the top right on large screens. It has a hover effect and an active CSS class that indicates which page the user is on, improving the user experience.
+- The logo is placed at the top and centred on small screens and top left on large screens. This also works as a link for the home page.
 - Social media links (for Facebook, Twitter, Instagram) are placed in the footer at the bottom of the page. All links will open in a new tab.
-- The color scheme of all pages were chosen using [ColorSpace](https://mycolor.space/) with focus in contrast, consistency and a pleasant user experience.
-- Buttons are consistent in all pages with a hover and border radius effect.
+- The color scheme of all pages were chosen using [ColorSpace](https://mycolor.space/) with focus on contrast, consistency and a pleasant user experience.
+- The buttons are consistent on all pages with a hover and border radius effect.
 ### Home page:
-- Hero image is placed under the navigation bar and is in consistency with the website theme.
-- The hero image has a heading and a paragraph that makes clear what is the purpose of the website.
-- In large screens there is a box around the heading and paragraph with a background color set to improve contrast.
+- Hero image is placed under the navigation bar and is consistent with the website theme.
+- The hero image has a heading and a paragraph that explains the purpose of the website.
+- In large screens there is a box around the heading and paragraph with a background color set to enhance contrast.
 - At the bottom of the hero image there are two buttons that brings the user to the bookings page and locations page respectively.
-- About us section is placed under the hero image with a list of reasons to why use the service. A background color and icons were used to improve the appearance and style 
-- Iframe with google maps location is placed under about us section, it has a coloured padding and a heading at the top.
+- About us section is placed under the hero image with a list of benefits that can be recieved by using the service. A background color and icons were used to improve the appearance and style 
+- Iframe with Google maps location is placed under about us section, it has coloured padding and a heading at the top.
 - Contact Us section is located just above the footer, it has all elements centred and a background color.
-- The home page has a margin in both sides on large screens to improve responsiveness and style.
+- The home page has a margin on both sides on large screens to improve responsiveness and style.
 
 The screenshots of the home page are below:
 
@@ -123,7 +123,7 @@ The screenshots of the home page are below:
 
 ### Locations page:
 
-- This page has a gallery with pictures of attractions in Dublin. Each image has a heading with the name and a paragraph with a description of the place.
+- This page has a gallery with pictures of attractions in Dublin. Each image has a heading with the name and a paragraph with a description of the locations.
 - On small screens the content is centred, for large screens the content is floated left and right.
 - Request a new location button at the bottom of the page brings the user to the bookings page.
 
@@ -138,11 +138,11 @@ The screenshots of the locations page are below:
 
 ### Bookings page:
 
-- Background image in consistency with the color scheme and website theme.
+- Background image is consistent with the color scheme and website theme.
 - Includes a contact form that gives the ability to request a booking and ask questions.
 - input type=date for selecting a date.
-- The form uses radio buttons for choosing a location or requesting a new one.
-- Thw form uses required attribute for essential information
+- The form uses radio buttons for choosing a location or the option to request a new one.
+- The form uses required attribute for essential information
 - Submit button at the end.
 - The form use the method="POST" action="https://formdump.codeinstitute.net/"
 
@@ -164,9 +164,9 @@ The feedback form was correctly submitted  as  shown below:
 
 * [HTML5](https://en.wikipedia.org/wiki/HTML5) (markup language) was used for structuring and presenting content of the website.
  
-* [CSS3](https://en.wikipedia.org/wiki/CSS) (Cascading Style Sheets) was used to provide the style to the content written in a HTML.
+* [CSS3](https://en.wikipedia.org/wiki/CSS) (Cascading Style Sheets) was used to style the content written in HTML.
 
-* [Balsamiq](https://balsamiq.com/) was used to create wireframes of the website.
+* [Balsamiq](https://balsamiq.com/) was used to create the wireframes of the website.
 
 * [Google Fonts](https://fonts.google.com/) was used to import font-family "Raleway" and "Open Sans" into style.css file and which was used throughout the pages of the website.
 
@@ -193,24 +193,24 @@ The feedback form was correctly submitted  as  shown below:
 ## 4.1 Automated testing
 
 ### Chrome DevTools
-I used the developer tools to debug my code and to try different styles. When something in my code didn’t behave in the way I expected I would inspect it and try out different solutions. When I was happy with the results I would them copy and paste the code in the projects file.
+I used the developer tools to debug my code and to try different styles. When something in my code didn’t behave in the way that I expected, I would inspect it and try out different solutions. When I was happy with the results I would then copy and paste the code in the projects file.
 
 ### Responsive Tools
 I used [Am I Responsive](http://ami.responsivedesign.is/) in conjunction with Chrome DevTools to check how the website behaved in different screen sizes.
 
 ### W3C Validator Tools 
 
-I used [W3C Markup](https://validator.w3.org/) to check my code for any errors in the html pages.
+I used [W3C Markup](https://validator.w3.org/) to check my code for any errors in the HTML pages.
 
-I had an error in my index page with a closing section tag that didn’t have an opening tag. Opening section tag created to fix the error.
+I had an error in my index page with a closing section tag that didn’t have an opening tag. I created an opening section tag to fix the error.
 
-I had an error in my bookings page with an empty section tag that didn’t have any elements inside. Section deleted to fix the error.
+I had an error in my bookings page with an empty section tag that didn’t have any elements inside. The section was deleted to fix the error.
 
 I used [Jigsaw validation](https://jigsaw.w3.org/) to check my code for any CSS errors. No errors were found.
 
 ## Manual Testing 
 
-I have tested my website on google chrome and safari on multiples devices.
+I have tested my website on Google Chrome and Safari on multiples devices.
   - iPhone 5/SE (320 x 568)
   - iPhone X (375 x 812)
   - iPad (768 x 1024)
