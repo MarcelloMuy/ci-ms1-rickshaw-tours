@@ -222,7 +222,7 @@ Please find below my testing process for all pages via mobile and web:
 
 ## All pages:
 
-### Navigation bar:
+### Navigation bar
   - Logo - When clicking the logo, the page is redirected to the home page. Pass.
   - Home - When selected, the page is redirected to the home page, the text is highlighted when hovered and stays like that when in the page. Pass.
   - Locations - When selected, the page is redirected to the Locations page, the text is highlighted when hovered and stays like that when in the page. Pass.
@@ -235,12 +235,12 @@ Please find below my testing process for all pages via mobile and web:
   - All elements were responsive using different break points. Pass.
 
 ### Images
-  - Check if all images were loaded, weren’t distorted and were responsive for different break points.
+  - Check if all images were loaded, weren’t distorted and were responsive for different break points. Pass.
 
 ### Buttons
-  - Check if all buttons were consistent and with a hover effect. Pass
+  - Check if all buttons were consistent and with a hover effect. Pass.
 
-### Footer:
+### Footer
   - Facebook – When clicking the icon, a new tab opens and redirects to the Facebook page. Pass.
   - Twitter - When clicking the icon, a new tab opens and redirects to the Twitter page. Pass.
   - Instagram - When clicking the icon, a new tab opens and redirects to the Instagram page. Pass.
