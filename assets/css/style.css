@@ -9,7 +9,7 @@
 body {
     font-family: "Open Sans", sans-serif;
     font-weight: 400;
-    color: #4B8078;
+    color: #4C8077;
 }
 
 li {
@@ -22,7 +22,7 @@ h1,h2,h3 {
     font-family: Raleway, sans-serif;
     letter-spacing: 0px;
     font-weight: 600;
-    color: #005248;
+    color: #005B48;
     padding-top: 5px;
 }
 
@@ -79,11 +79,11 @@ header{
 }
 
 #menu a:hover{
-    border-bottom: 1px solid #4b8078;
+    border-bottom: 1px solid #4C8077;
 }
 
 .active {
-    border-bottom: 1px solid #4b8078;
+    border-bottom: 1px solid #4C8077;
 }
 
 /* hero image */
@@ -112,7 +112,7 @@ header{
 
 #hero-image a {
     text-decoration: none;
-    color: #DFE0DF;
+    color: #EEEAEA;
 }
 
 .buttons-box {
@@ -124,13 +124,13 @@ header{
 }
 
 .buttons:hover {
-    background-color: #005248;
+    background-color: #005B48;
 }
 
 /* about us */
 
 #why-us {
-    background-color: #DFE0DF;
+    background-color: #EEEAEA;
     width: 100%;
 }
 
@@ -160,10 +160,10 @@ i {
 }
 #map-frame {
     padding: 10px 20px 20px;
-    background-color: #4B8078;
+    background-color: #4C8077;
 }
 #map-frame h2 {
-    color: #DFE0DF;
+    color: #EEEAEA;
     text-align: center;
     padding-bottom: 10px;
 }
@@ -173,7 +173,7 @@ i {
 #contact {
     width: 100%;
     text-align: center;
-    background-color: #DFE0DF;
+    background-color: #EEEAEA;
 }
 
 /* footer */
@@ -194,14 +194,14 @@ footer li {
 
 .social-links i {
     font-size: 160%;
-    color: #005248;
+    color: #005B48;
     padding: 0 5%;
 }
 
 /* locations gallery */
 
 #gallery {
-    background-color: #DFE0DF;
+    background-color: #EEEAEA;
     width: 100%;
 }
 
@@ -223,7 +223,7 @@ footer li {
 
 .location-button-box a {
     text-decoration: none;
-    color: #DFE0DF;
+    color: #EEEAEA;
 }
 
 /* bookings page */
@@ -239,14 +239,14 @@ footer li {
 }
 .booking-form {
     margin: auto;
-    color: #005248;
+    color: #005B48;
     background-color: rgba(211, 205, 205, 0.750);
     max-width: 280px;
     padding: 15px;
 }
 
 form button {
-    color: #DFE0DF;
+    color: #EEEAEA;
 }
 
 #submit-button-box {
