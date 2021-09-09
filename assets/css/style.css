@@ -18,7 +18,7 @@ li {
     list-style-type: none;
 }
 
-h1, h2, h4 {
+h1,h2,h3 {
     font-family: Raleway, sans-serif;
     letter-spacing: 0px;
     font-weight: 600;
@@ -162,7 +162,7 @@ i {
     padding: 10px 20px 20px;
     background-color: #4B8078;
 }
-#map-frame h3 {
+#map-frame h2 {
     color: #DFE0DF;
     text-align: center;
     padding-bottom: 10px;
@@ -214,10 +214,6 @@ footer li {
     width: 100%;
 }
 
-.gallery-box h3 {
-    padding: 10px 0;
-}
-
 .location-button-box {
     width: 100%;
     text-align: center;
@@ -253,11 +249,15 @@ form button {
     color: #DFE0DF;
 }
 
-#submit-button {
+#submit-button-box {
     text-align: center;
 }
 
-form h2,p {
+#submit-button {
+    margin-top: 8px;
+}
+
+form h2,h3 {
     padding: 5px 0;
 }
 
@@ -269,10 +269,6 @@ form h2,p {
     padding-left: 3px;
     padding-top: 3px;
     padding-bottom: 3px;
-}
-
-#submit-button {
-    margin-top: 4px;
 }
 
 /* For medium screen sizes from 750px wide and up */
@@ -330,7 +326,7 @@ form h2,p {
         font-size: 2rem;
     }
 
-    p,.buttons {
+    p,h3,.buttons {
         font-size: 1.5rem;
     }
 
@@ -449,7 +445,7 @@ form h2,p {
         font-size: 2rem;
     }
 
-    p,.buttons {
+    p,h3,.buttons {
         font-size: 1.5rem;
     }
 

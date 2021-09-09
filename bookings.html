@@ -13,20 +13,20 @@
 <body id="bookings-page">
     <!-- Navigation bar -->
     <header id="bookings-header">
-        <a href="index.html" id="logo">
-            <h1>Rickshaw Tours</h1>
+        <a href="index.html" id="logo" aria-label="Go to home page">
+            <h1 aria-label="Logo">Rickshaw Tours</h1>
         </a>
         <nav>
             <div class="table">
                 <ul id="menu">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" aria-label="Go to home page">Home</a>
                     </li>
                     <li>
-                        <a href="locations.html">Locations</a>
+                        <a href="locations.html" aria-label="Go to locations page">Locations</a>
                     </li>
                     <li>
-                        <a href="bookings.html" class="active">Bookings</a>
+                        <a href="bookings.html" class="active" aria-label="Go to bookings page">Bookings</a>
                     </li>
                 </ul>
             </div>
@@ -38,31 +38,31 @@
         <!-- form title -->
         <form class="booking-form" method="POST" action="https://formdump.codeinstitute.net/">
             <div id="form-h2">
-                <h2>Booking Request</h2>
+                <h2 aria-label="Form heading">Booking Request</h2>
             </div>
-            <p>Please fill in your details below:</p>
+            <h3 aria-label="Form instructions">Please fill in your details below:</h3>
             
             <!-- Personal information -->
             <div>
                 <label for="fname">First Name:</label>
-                <input id="fname" class="text-input" name="first_name" type="text" placeholder="Your first name" required>
+                <input id="fname" class="text-input" name="first_name" type="text" placeholder="Enter first name" aria-label="Enter first name" required>
             </div>
             <div>
                 <label for="lname">Last Name:</label>
-                <input id="lname" class="text-input" name="lname" type="text" placeholder="Your last name" required>
+                <input id="lname" class="text-input" name="lname" type="text" placeholder="Enter last name" aria-label="Enter last name" required>
             </div>
             <div>
                 <label for="email">Email Adress:</label>
-                <input type="email" class="text-input" id="email" name="email_address" placeholder="Your e-mail" required>       
+                <input type="email" class="text-input" id="email" name="email_address" placeholder="Enter e-mail" aria-label="Enter e-mail" required>       
             </div>
 
             <!-- Date of booking -->
             <div>
                 <label for="date-of-booking">Choose a date</label>
-                <input type="date" class="text-input" name="date-of-booking" id="date-of-booking" required>
+                <input type="date" class="text-input" name="date-of-booking" id="date-of-booking" aria-label="Choose date of booking" required>
             </div>
 
-            <p>What do you want to see?</p>
+            <h3 aria-label="Form question">What do you want to see?</h3>
 
             <!-- Radio buttons for locations -->
             <div>
@@ -96,15 +96,16 @@
                 <input type="radio" name="choice-of-location" id="new-location" value="new-location">
                 <label for="new-location">New Location</label>
                 <label for="new-location-text"></label>
-                <input id="new-location-text" type="text" class="text-input" name="choice-of-location" placeholder="Name of Attraction">
+                <input id="new-location-text" type="text" class="text-input" name="choice-of-location" placeholder="Enter name of attraction" aria-label="Enter name of attraction">
             </fieldset>
             
             <!-- Feedback and questions area -->
-            <p>Any questions? Just ask.</p>
+            <h3 aria-label="Feedback heading">Any questions? Just ask.</h3>
 
             <label for="questions"></label>
-            <textarea id="questions" class="text-input" name="questions" rows="10" cols="38"></textarea>
-            <div id="submit-button">
+            <textarea id="questions" class="text-input" name="questions" rows="10" cols="38" aria-label="Enter text here"></textarea>
+            
+            <div id="submit-button-box">
 
                 <!-- Submit button -->
                 <button id="submit-button" class="buttons" type="submit">

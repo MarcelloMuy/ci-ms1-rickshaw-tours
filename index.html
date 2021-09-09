@@ -13,20 +13,20 @@
 <body>
     <!-- Navigation bar -->
     <header>
-        <a href="index.html" id="logo">
-            <h1>Rickshaw Tours</h1>
+        <a href="index.html" id="logo" aria-label="Go to home page">
+            <h1 aria-label="Logo">Rickshaw Tours</h1>
         </a>
         <nav>
             <div class="table">
                 <ul id="menu">
                     <li>
-                        <a href="index.html" class="active">Home</a>
+                        <a href="index.html" class="active" aria-label="Go to home page">Home</a>
                     </li>
                     <li>
-                        <a href="locations.html">Locations</a>
+                        <a href="locations.html" aria-label="Go to locations page">Locations</a>
                     </li>
                     <li>
-                        <a href="bookings.html">Bookings</a>
+                        <a href="bookings.html" aria-label="Go to bookings page">Bookings</a>
                     </li>
                 </ul>
             </div>
@@ -44,10 +44,10 @@
             <!-- Centre page buttons -->
             <div class="buttons-box">
                 <div class="buttons">
-                    <a href="bookings.html">Book a Ride</a>
+                    <a href="bookings.html" aria-label="Go to bookings page">Book a Ride</a>
                 </div>
                 <div class="buttons">
-                    <a href="locations.html">Places to See</a>
+                    <a href="locations.html" aria-label="Go to locations page">Places to See</a>
                 </div>
             </div>
         </div>
@@ -78,7 +78,7 @@
     <!-- Find us section with google maps Iframe -->
     <section>
         <div id="map-frame">
-            <h3><i class="fas fa-map-marker-alt"></i> Find us here</h3>
+            <h2 aria-label="Heading for google maps iframe"><i class="fas fa-map-marker-alt"></i> Find us here</h2>
             <div id="map-box">
                 <iframe class="map" src="https://maps.google.com/maps?q=spire%20dublin&t=&z=15&ie=UTF8&iwloc=&output=embed" title="Location on Google maps" ></iframe>
             </div>
@@ -90,16 +90,16 @@
         <div id="contact">
             <ul>
                 <li>
-                    <h4>Contact Us:</h4>
+                    <h2>Contact Us:</h2>
                 </li>
                 <li>
-                    <p>O'Connell Street Upper, North City, Dublin</p>
+                    <h3 aria-label="Our address">O'Connell Street Upper, North City, Dublin</h3>
                 </li>
                 <li>
-                    <p>hello@rickshawtours.com</p>
+                    <h3 aria-label="Our e-mail">hello@rickshawtours.com</h3>
                 </li>
                 <li>
-                    <p>Phone: 23456-7878</p>
+                    <h3 aria-label="Our phone number">Phone: 23456-7878</h3>
                 </li>
             </ul>
         </div>
