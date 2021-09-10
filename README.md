@@ -165,7 +165,7 @@
 
   ![Form feedback](./assets/images/form-dump-preview.png)
 
-    <a name="technologies-used"></a>
+  <a name="technologies-used"></a>
 # 3. Technologies Used
   [Go to the top](#table-of-contents)
 
