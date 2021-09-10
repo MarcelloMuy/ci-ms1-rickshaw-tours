@@ -286,9 +286,9 @@ Please find below my testing process for all pages via mobile and web:
   [Go to the top](#table-of-contents)
 
 ### Solved Bugs
-  - On larger screens hero image headings were difficult to read. Problem fixed by adding a box around then with a background color to improve contrast.
-  - On Firefox list icons were displaying text decoration. Problem fixed with using css style text-decoration: none. 
-  - Images on locations page were too large on large screens. Problem fixed by adjusting width of images and using property float to accommodate then better on the page.
+  - On larger screens hero image headings were difficult to read. Problem fixed by adding a box around them with a background color to improve contrast.
+  - On Firefox list, icons were displaying text decoration. Problem fixed with using css style text-decoration: none. 
+  - Images on locations page were too large on large screens. Problem fixed by adjusting width of images and using property float to accommodate them better on the page.
   - On Firefox form submit button was displaying too close to the textarea tag. Problem fixed by a adding css style padding-top to the button.
 
   <a name="deployment"></a>
@@ -305,7 +305,7 @@ Please find below my testing process for all pages via mobile and web:
   - Live link for this project [here](https://marcellomuy.github.io/ci-milestone-p1/). 
 
   <a name="credit"></a>
-# 7. Credit
+# 7. Credits
   [Go to the top](#table-of-contents)
 
 ## Media 
@@ -319,7 +319,7 @@ Please find below my testing process for all pages via mobile and web:
   * I would like to thank my mentor Marcel Mulders who helped me throughout the development of this project.
 
 ## Content 
-  * Content for locations page came from [Trip advisor](https://www.tripadvisor.ie).
+  * Content for locations page came from [Trip Advisor](https://www.tripadvisor.ie).
 
 
 
