@@ -203,13 +203,34 @@
 
 ### W3C Validator Tools 
 
-  I used [W3C Markup](https://validator.w3.org/) to check my code for any errors in the HTML pages.
+ - I used [W3C Markup](https://validator.w3.org/) to check my code for any errors in the HTML pages.
 
-  I had an error in my index page with a closing section tag that didn’t have an opening tag. I created an opening section tag to fix the error.
+    I had an error in my index page with a closing section tag that didn’t have an opening tag. I created an opening section tag to fix the error.
 
-  I had an error in my bookings page with an empty section tag that didn’t have any elements inside. The section was deleted to fix the error.
+    I had an error in my bookings page with an empty section tag that didn’t have any elements inside. The section was deleted to fix the error.
 
-  I used [Jigsaw validation](https://jigsaw.w3.org/) to check my code for any CSS errors. No errors were found.
+    The screenshots of the validator showing no errors are below:
+  
+  Home page:
+
+  ![Index page](./assets/images/index-w3c-validator.png) 
+
+  Locations page:
+
+  ![Locations page](./assets/images/locations-w3c-validator.png)
+  
+  Bookings page:
+
+  ![Bookings page](./assets/images/bookings-w3c-validator.png)
+
+
+  - I used [Jigsaw validation](https://jigsaw.w3.org/) to check my code for any CSS errors. No errors were found.
+
+  The screenshot of the validator showing no errors is below:
+  
+  Css style page:
+
+  ![Style page](./assets/images/style-css-validator.png) 
 
 ## Manual Testing 
 
@@ -284,17 +305,17 @@ Please find below my testing process for all pages via mobile and web:
   [Go to the top](#table-of-contents)
 
 ## Media 
-  * All images used in the project came from [Canva](https://canva.com)
-  * All icons used in the project came from [Font Awesome](https://fontawesome.com)
+  * All images used in the project came from [Canva](https://canva.com).
+  * All icons used in the project came from [Font Awesome](https://fontawesome.com).
 
 ## Code 
-  * Code to make iframe responsive came from [w3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp)
+  * Code to make iframe responsive came from [w3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp).
   * Code for footer was inspired from love running project.
   * For README.md file, https://github.com/iKelvvv/MS1 and https://github.com/dhakal79/Portfolio-project-MS1 was used as reference. 
   * I would like to thank my mentor Marcel Munders who helped me throughout the development of this project.
 
 ## Content 
-  * Content for locations page came from [Trip advisor](https://www.tripadvisor.ie)
+  * Content for locations page came from [Trip advisor](https://www.tripadvisor.ie).
 
 
 
