@@ -167,7 +167,7 @@
 
     <a name="technologies-used"></a>
 # 3. Technologies Used
-    [Go to the top](#table-of-contents)
+  [Go to the top](#table-of-contents)
 
   * [HTML5](https://en.wikipedia.org/wiki/HTML5) (markup language) was used for structuring and presenting content of the website.
  
@@ -316,7 +316,7 @@ Please find below my testing process for all pages via mobile and web:
   * Code to make iframe responsive came from [w3schools](https://www.w3schools.com/howto/howto_css_responsive_iframes.asp).
   * Code for footer was inspired from love running project.
   * For README.md file, https://github.com/iKelvvv/MS1 and https://github.com/dhakal79/Portfolio-project-MS1 was used as reference. 
-  * I would like to thank my mentor Marcel Munders who helped me throughout the development of this project.
+  * I would like to thank my mentor Marcel Mulders who helped me throughout the development of this project.
 
 ## Content 
   * Content for locations page came from [Trip advisor](https://www.tripadvisor.ie).
