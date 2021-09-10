@@ -176,6 +176,14 @@ i {
     background-color: #EEEAEA;
 }
 
+#contact h2 {
+    font-size: 24px;
+}
+
+#contact h3 {
+    font-size: 18px;
+}
+
 /* footer */
 
 footer {
