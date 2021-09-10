@@ -24,6 +24,10 @@
 
 [5.Bugs](#bugs)
 
+[6.Deployment](#deployment)
+
+[7.Credit](#Credit)
+
   <a name="ux"></a>
 # 1. User experience (UX) design
   [Go to the top](#table-of-contents)
