@@ -4,7 +4,7 @@
 ## Introduction 
   Welcome to my first milestone project. This project is a website for a fictional guided tours company that uses rickshaw-style bikes and operates in Dublin, Ireland. This website gives the user a way to know the brand and book the service. It also shows the different attractions that are available to see in Dublin.
 
-  A live website can be found [here](https://marcellomuy.github.io/ci-milestone-p1/).
+  A live website can be found [here](https://marcellomuy.github.io/ci-ms1-rickshaw-tours).
 
   ![website preview](assets/images/responsive-screenshot.png)
 
